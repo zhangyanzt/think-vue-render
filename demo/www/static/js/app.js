@@ -24,6 +24,5 @@
     module.exports = createApp
   } else {
     this.app = createApp();
-    app.$mount('#app')
   }
 }).call(this)

@@ -31,6 +31,9 @@ code{  padding: 2px 4px;font-size: 90%;color: #c7254e;background-color: #f9f2f4;
   </div>
   <script src="//cdn.bootcss.com/vue/2.0.3/vue.min.js"></script>
   <script id="ssr" src="/static/js/app.js"></script>
-
+  <!-- 此处根据id="ssr"获取服务端渲染脚本-->
+  <script>
+    app.$mount('#app')
+  </script>
 </body>
 </html>
